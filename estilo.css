@@ -1,0 +1,42 @@
+* {
+margin: 1px;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    font-size: 24px;
+}
+
+.dados{
+    display: flex;
+    max-width: 960px;
+    grid-template-columns: 1 1;
+    margin: 40px auto;
+    font-size: 22px;
+    border: 1px solid #B15EFF;
+    border-radius: 16px;
+    box-shadow: 8px 8px 8px #3b14a738;
+}
+
+.condicoes, .local-atual{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.temperatura{
+    font-size: 32px;
+}
+
+.cidade{
+    font-size: 32px;
+}
+
+.hideLoad{
+    display: none;
+}
