@@ -1,16 +1,3 @@
-
-//opção 1
-
-/*
-const getweather = () =>{
-    fetch("https://api.weatherapi.com/v1/current.json?key=6b97fe193a374eb09d6121028240106&q=Joao-Pessoa")
-    .then((response)=>{
-       return response.json()
-    })
-    .then((response)=>console.log(response))
-}
-*/
-
 window.addEventListener('load', () => {
     const getNavigator = () => {
         navigator.geolocation.getCurrentPosition((position) => {
